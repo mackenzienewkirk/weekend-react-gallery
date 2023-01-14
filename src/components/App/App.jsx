@@ -2,16 +2,14 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import axios from 'axios';
 import GalleryList from '../GalleryList/GalleryList';
-import GalleryItem from '../GalleryItem/GalleryItem';
-
 
 function App() {
 
   const [galleryItems, setGalleryItems] = useState ([]);
 
-  useEffect(() => getPhotos(), []);
+  useEffect(() => getGallery(), []);
 
-  const getPhotos = () => {
+  const getGallery = () => {
     axios({
       method: 'GET',
       url: '/gallery'
@@ -26,14 +24,13 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Life</h1>
+          <h1 className="App-title">From Minnesota to California...</h1>
         </header>
-        <p>Gallery goes here</p>
+        <p>Spring 2021</p>
         <GalleryList 
-        items={galleryItems} 
-        getPhotos={getPhotos}
-        />
-        
+        galleryItems={galleryItems} 
+        getGallery={getGallery}/>
+
         {/* <img src="images/goat_small.jpg"/>
         <img src="images/selfie.jpeg"/> */}
       </div>
