@@ -3,13 +3,30 @@
 }
 
 .App-header {
-  background-color: #222;
-  padding: 1em;
-  color: white;
-  margin-bottom: 1em;
+  background-color: #734343;
+  padding: 2em;
+  color:  #EEEDE1 ;
+  margin-bottom: 0em;
 }
 
 .App-title {
   font-size: 1.5em;
 }
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #734343;
+  padding: 2em;
+  color:  #EEEDE1 ;
+  margin-bottom: 0em;
+}
+
 

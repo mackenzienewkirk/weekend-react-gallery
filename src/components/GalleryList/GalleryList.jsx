@@ -34,8 +34,8 @@ function GalleryList(props) {
                     />
                     <button onClick={() =>{
                         likePicture(item.id, item.likes)
-                    }}>Love</button>
-                    <p>{item.likes} love this!</p>
+                    }}>I love it!</button>
+                    <p>{item.likes}</p>
                 </div>)
             )}
         </div>
