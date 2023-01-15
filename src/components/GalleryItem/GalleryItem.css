@@ -1,16 +1,13 @@
-item {
+.item {
     width: 400px;
     height: 400px;
     object-fit: cover;
     margin: 17px;
     border-radius: 7px;
-}
+} 
 
 .img-card {
     width: 60px;
     height: 60px;
-    object-fit: cover;
-    margin: 17px;
-    border-radius: 7px;
-    border: solid 1px;
-}
+} 
+
