@@ -7,8 +7,8 @@
   padding: 2em;
   color:  #EEEDE1 ;
   margin-bottom: 0em;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .App-title {
@@ -29,8 +29,8 @@ h2 {
   padding: 2em;
   color:  #EEEDE1 ;
   margin-bottom: 0em;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 img {
@@ -38,7 +38,9 @@ img {
   margin-bottom: 4px;
   width: 600px;
   height: 460px;
-  border: 20px;
+  border-style: solid;
+  border-color: #2B450C;
+  border-width: 10px;
 }
 
 
