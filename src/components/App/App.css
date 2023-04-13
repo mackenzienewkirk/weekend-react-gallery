@@ -43,4 +43,7 @@ img {
   border-width: 10px;
 }
 
-
+.description {
+  width: 80px;
+  height: 30px;
+}
