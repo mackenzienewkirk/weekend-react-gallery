@@ -1,15 +1,14 @@
 import GalleryItem from "../GalleryItem/GalleryItem";
 import './GalleryList.css';
 import axios from 'axios';
-import { useState } from 'react';
 
 function GalleryList(props) {
 
-    console.log(props.galleryItems);
+    // console.log(props.galleryItems);
 
     const likePicture = (id, likes) => {
         let newLikes = likes + 1;
-        console.log(newLikes);
+        // console.log(newLikes);
         axios.put(`/gallery/like/${id}`, 
             {
             id: id,
@@ -18,7 +17,7 @@ function GalleryList(props) {
         )
         .then( response => {
             props.getGallery()
-            console.log(response);
+            // console.log(response);
         }).catch(error => console.log(error))
     }
 
