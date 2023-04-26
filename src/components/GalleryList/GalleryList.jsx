@@ -1,6 +1,7 @@
 import GalleryItem from "../GalleryItem/GalleryItem";
 import './GalleryList.css';
 import axios from 'axios';
+import { Grid } from "@mui/material";
 
 function GalleryList(props) {
 
