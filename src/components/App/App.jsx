@@ -24,8 +24,9 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">From Minnesota to California...</h1>
-          <p>Spring 2021</p>
+          <h1 className="App-title">From Minnesota to California...
+          <p>Spring 2021</p></h1>
+          
         </header>
         <GalleryList 
         galleryItems={galleryItems} 

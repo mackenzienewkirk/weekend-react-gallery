@@ -7,20 +7,25 @@
   padding: 2em;
   color:  #EEEDE1 ;
   margin-bottom: 0em;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .App-title {
   font-size: 1.5em;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 h2 {
