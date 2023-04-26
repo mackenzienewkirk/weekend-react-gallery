@@ -4,10 +4,9 @@
     justify-content: space-evenly;
 }
 
-.GalleryItem {
-    display: flex;
-    flex-direction: column;
-}
+/* .GalleryItem {
+    
+} */
 
 h2 {
     margin-left: 100px;
